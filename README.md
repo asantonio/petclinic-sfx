@@ -82,7 +82,7 @@ You can also take a look at the logs for the Smart Agent:
 Download the latest version from our release page:
 * https://github.com/signalfx/signalfx-java-tracing/releases
 
-Thwe following command will download v0.48.0 to the local instance. Please update your version based on the newest version from the previous link. From within the `spring-petclinic` directory that we have been working in:
+The following command will download v0.48.0 to the local instance. Please update your version based on the newest version from the previous link. From within the `spring-petclinic` directory that we have been working in:
 
 ```
 curl -LJO https://github.com/signalfx/signalfx-java-tracing/releases/download/v0.48.0-sfx1/signalfx-tracing.jar
