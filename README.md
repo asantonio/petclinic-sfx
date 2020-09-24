@@ -90,7 +90,9 @@ For systemd hosts, run:
 Download the latest version from our release page:
 * https://github.com/signalfx/signalfx-java-tracing/releases
 
-The following command will download v0.48.0 to the local instance. Please update your version based on the newest version from the previous link. From within the `spring-petclinic` directory that we have been working in:
+The following command will download v0.48.0 to the local instance. Please update your version based on the newest version from the previous link. 
+
+Run the following from within the `spring-petclinic` directory that we have been working in. This will download the desired Sfx agent into our directory:
 
 ```
 curl -LJO https://github.com/signalfx/signalfx-java-tracing/releases/download/v0.48.0-sfx1/signalfx-tracing.jar
