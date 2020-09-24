@@ -135,6 +135,7 @@ Click on µAPM and you should see the PetClinic service appear in the map along 
 From the Monitoring tab, click on the PetClinic Service circle itself to select it. You will be able to see the built-in service dashbaord for it by clicking on *View Dashboard* 
 
 <img width="1024" alt="monitoring" src="media/monitoring.png">
+Some charts may not populate until enough data has been sent for a sustained period of time.
 
 Click on *Troubleshooting* to enter the view where we can see traces and the more granular level data about our PetClinic.
 
