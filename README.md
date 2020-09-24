@@ -1,4 +1,4 @@
-# POC in a Box
+# Instrumenting Petclinic with SignalFx Infrastructure, µAPM, and Tracing
 ## What is this?
 Steps to deploy a sample Springboot application and enable SignalFx for Infrastructure, APM, and Tracing functionality. 
 
