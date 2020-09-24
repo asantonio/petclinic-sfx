@@ -158,7 +158,7 @@ https://github.com/signalfx/signalfx-java-tracing#requirements-and-supported-sof
 <img width="1024" align="center" alt="traceview" src="media/traceview.png">.
 </p>
 
-CLick into the various spans to view the _span tags_ and _process tags_ associated with each span. You can unfurl each span to provide finest grained visibility into the path of the trace and metadata about each span in code.
+Click into the various spans to view the _span tags_ and _process tags_ associated with each span. You can unfurl each span to provide finest grained visibility into the path of the trace and metadata about each span in code.
 
 <p align="center">
 <img height="480" align="center" alt="traceviewing" src="media/traceViewing.gif">
