@@ -152,7 +152,7 @@ You can even click and drag over an interesting part or peak in the map to isola
 <img height="480" align="center" alt="clickanddrag" src="media/clickanddrag.gif">.
 </p>
 
-Click on a trace to view the Distributed Trace of a single request as it touches various spans within an application. SignalFx instrumentation is able to pick calls to common libraries and frameworks.
+Click on a trace to view a single request as it touches various spans within an application. SignalFx instrumentation is able to pick calls to common libraries and frameworks.
 
 https://github.com/signalfx/signalfx-java-tracing#requirements-and-supported-software
 
