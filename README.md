@@ -1,5 +1,7 @@
-# Instrumenting Petclinic with SignalFx Infrastructure, µAPM, and Tracing
-## What is this?
+# Instrumenting Petclinic with SignalFx
+### SignalFX Infrastructure, µAPM, and Tracing
+
+## Overview
 Steps to deploy a sample Springboot application and enable SignalFx for Infrastructure, APM, and Tracing functionality. 
 
 ## Requirements
