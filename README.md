@@ -40,7 +40,7 @@ sudo sh /tmp/signalfx-agent.sh --realm us1 <YOUR_SignalFX_REALM> <YOUR_SignalFx_
 ```
 _the above commands can also be found prepopulated here: https://app.signalfx.com/#/integrations?selectedKeyValue=custom:signalfx-agent&tab=Setup_
 
-Confirm the Smart Agebt is running:
+Confirm the Smart Agent is running:
 ```
 sudo signalfx-agent status
 ```
