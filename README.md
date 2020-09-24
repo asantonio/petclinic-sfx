@@ -29,7 +29,7 @@ You can then access petclinic here: http://HOST_IP:8080/ . Once you have clicked
 <img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
 ## Deploy SignalFx
-### 1. First install the Smart Agent
+### 1. Install the Smart Agent
 The SignalFx Smart Agent collects metrics from the host that it is on, as well as collecting metrics and traces from the instrumentation library.
 
 The following command will download and configure the SignalFx Agent and start it. Go ahead and run this on your compute resource:
@@ -78,6 +78,12 @@ You should be able to see your host in the SignalFx UI. Go to *Infrastructure* >
 
 
 You can also take a look at the logs for the Smart Agent:
+
+For sysv/upstart hosts, run:
+* `tail -f /var/log/signalfx-agent.log`
+
+For systemd hosts, run:
+* `journalctl -u signalfx-agent -f`
 
 
 ### 2. Next deploy the auto instrumentation library for APM and tracing
