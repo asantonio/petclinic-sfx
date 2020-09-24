@@ -175,3 +175,7 @@ Click into the various spans to view the _span tags_ and _process tags_ associat
 <p align="center">
 <img height="480" align="center" alt="traceviewing" src="media/traceViewing.gif">
 </p>
+
+## Credits
+Inspired and using content from: https://www.splunk.com/en_us/blog/cloud/end-to-end-java-observability-in-5-simple-steps.html
+by https://github.com/ddesjardins-splunk
