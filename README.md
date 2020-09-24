@@ -147,7 +147,7 @@ Click on either the *Requests And Errors* navbar item or the *Latency* navbar it
 You can even click and drag over an interesting part or peak in the map to isolate the important data from the noise.
 
 <p align="center">
-<img height="480" align="center" alt="clickanddrag" src="media/clickanddrag.gif">.gif
+<img height="480" align="center" alt="clickanddrag" src="media/clickanddrag.gif">.
 </p>
 
 Click on a trace to view the Distributed Trace of a single request as it touches various spans within an application. SignalFx instrumentation is able to pick calls to common libraries and frameworks.
@@ -155,11 +155,11 @@ Click on a trace to view the Distributed Trace of a single request as it touches
 https://github.com/signalfx/signalfx-java-tracing#requirements-and-supported-software
 
 <p align="center">
-<img width="1024" align="center" alt="traceview" src="media/traceview.png">.gif
+<img width="1024" align="center" alt="traceview" src="media/traceview.png">.
 </p>
 
 CLick into the various spans to view the _span tags_ and _process tags_ associated with each span. You can unfurl each span to provide finest grained visibility into the path of the trace and metadata about each span in code.
 
 <p align="center">
-<img height="480" align="center" alt="traceviewing" src="media/traceviewing.gif">
+<img height="480" align="center" alt="traceviewing" src="media/traceViewing.gif">
 </p>
