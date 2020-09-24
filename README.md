@@ -132,10 +132,9 @@ Goto http://HOST_IP:8080/ and click around the site performing the following act
 ## 5. View the data generated within SignalFx
 Click on µAPM and you should see the PetClinic service appear in the map along with a database dependency.
 
-From the Monitoring tab, click on the PetClinic Service circle itself to select it. You will be able to see the built-in service dashbaord for it by clicking on *View Dashboard* 
-
-<img width="1024" alt="monitoring" src="media/monitoring.png">
+From the Monitoring tab, click on the PetClinic Service circle itself to select it. You will be able to see the built-in service dashbaord for it by clicking on *View Dashboard*.  
 Some charts may not populate until enough data has been sent for a sustained period of time.
+<img width="1024" alt="monitoring" src="media/monitoring.png">
 
 Click on *Troubleshooting* to enter the view where we can see traces and the more granular level data about our PetClinic.
 
