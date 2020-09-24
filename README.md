@@ -177,6 +177,4 @@ Click into the various spans to view the _span tags_ and _process tags_ associat
 </p>
 
 ## Credits
-Inspired and using content from:
- https://www.splunk.com/en_us/blog/cloud/end-to-end-java-observability-in-5-simple-steps.html
-- [Derek Desjardins](https://github.com/ddesjardins-splunk)
+Inspired and using content from: [End to End Java Observability]( https://www.splunk.com/en_us/blog/cloud/end-to-end-java-observability-in-5-simple-steps.html) by [Derek Desjardins](https://github.com/ddesjardins-splunk)
