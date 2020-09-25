@@ -36,9 +36,9 @@ The following command will download and configure the SignalFx Agent and start i
 
 ```
 curl -sSL https://dl.signalfx.com/signalfx-agent.sh > /tmp/signalfx-agent.sh
-sudo sh /tmp/signalfx-agent.sh --realm us1 <YOUR_SignalFX_REALM> <YOUR_SignalFx_TOKEN>
+sudo sh /tmp/signalfx-agent.sh --realm <YOUR_SignalFX_REALM> -- <YOUR_SignalFx_TOKEN>
 ```
-_the above commands can also be found prepopulated here: https://app.signalfx.com/#/integrations?selectedKeyValue=custom:signalfx-agent&tab=Setup_
+_Link to the prefilled instructions directly in your SignalFx UI: https://app.signalfx.com/#/integrations?selectedKeyValue=custom:signalfx-agent&tab=Setup_
 
 Confirm the Smart Agent is running:
 ```
@@ -175,6 +175,3 @@ Click into the various spans to view the _span tags_ and _process tags_ associat
 <p align="center">
 <img height="480" align="center" alt="traceviewing" src="media/traceViewing.gif">
 </p>
-
-## Credits
-Inspired and using content from: [End to End Java Observability]( https://www.splunk.com/en_us/blog/cloud/end-to-end-java-observability-in-5-simple-steps.html) by [Derek Desjardins](https://github.com/ddesjardins-splunk)
