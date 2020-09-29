@@ -113,7 +113,7 @@ $ export SIGNALFX_ENDPOINT_URL: 'http://localhost:9080/v1/trace'
 $ export SIGNALFX_SPAN_TAGS="environment:local"
 
 ```
-> **Protip:** if you don't set that environment tag at the app level, then metrics > > correlation breaks at the agent level. The metrics that get the sf_environment tag > on K8s depend on the trace forwarder already having an environment tag
+> **Protip:** if you don't set that environment tag at the app level, then metrics > > correlation breaks at the agent level. The metrics that get the sf_environment tag > > on K8s depend on the trace forwarder already having an environment tag
 
 Now, start the Pet Clinic application with our Java instrumentation library sending its data to the Smart Agent. For example:
 ```
