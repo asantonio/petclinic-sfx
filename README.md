@@ -109,7 +109,7 @@ ubuntu@quji:~/spring-petclinic$
 Set the required environment variables or system properties for your application. For more information about the required environment variables, see the Configuration values. Set this environment variable from the command line:
 ```
 $ export SIGNALFX_SERVICE_NAME="PetClinic-myTest"
-$ export SIGNALFX_ENDPOINT_URL: 'http://localhost:9080/v1/trace'
+$ export SIGNALFX_ENDPOINT_URL='http://localhost:9080/v1/trace'
 $ export SIGNALFX_SPAN_TAGS="environment:local"
 
 ```
