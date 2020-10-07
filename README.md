@@ -10,10 +10,26 @@ Steps to deploy a sample Springboot application and enable SignalFx for Infrastr
     * Access Token
     * Realm
 * a compute resource to install onto - ec2, droplet, bare metal with external network access
-
+    * JDK
+    * Maven
+    
 ## Setting up the sample application
 ### Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
+
+### Prerequisites for sample application
+To build and run the application you will need a JDK and Maven.
+
+Example installs:
+```
+$ sudo apt install default-jdk
+$ sudo apt install maven
+```
+To verify these are installed:
+```
+$ java -version
+$ mvn -version
+```
 
 ### Running Pet Clinic
 Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
@@ -109,7 +125,7 @@ ubuntu@quji:~/spring-petclinic$
 Set the required environment variables or system properties for your application. For more information about the required environment variables, see the Configuration values. Set this environment variable from the command line:
 ```
 $ export SIGNALFX_SERVICE_NAME="PetClinic-myTest"
-$ export SIGNALFX_ENDPOINT_URL: 'http://localhost:9080/v1/trace'
+$ export SIGNALFX_ENDPOINT_URL='http://localhost:9080/v1/trace'
 $ export SIGNALFX_SPAN_TAGS="environment:local"
 
 ```
