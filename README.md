@@ -95,7 +95,7 @@ The following command will download v0.48.0 to the local instance. Please update
 Run the following from within the `spring-petclinic` directory that we have been working in. This will download the desired Sfx agent into our directory:
 
 ```
-curl -LJO https://github.com/signalfx/signalfx-java-tracing/releases/download/v0.48.0-sfx1/signalfx-tracing.jar
+curl -LJO https://github.com/signalfx/signalfx-java-tracing/releases/download/v0.48.0-sfx6/signalfx-tracing.jar
 ```
 
 And the working directory should look like:
